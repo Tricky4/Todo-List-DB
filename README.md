@@ -1,14 +1,18 @@
 ```
- ________  ______________    _____ _                      ___  ______ _____      
-|_   _|  \/  |  _  \ ___ \  /  __ \ |                    / _ \ | ___ \_   _|
-  | | | .  . | | | | |_/ /  | /  \/ | ___  _ __   ___   / /_\ \| |_/ / | |
-  | | | |\/| | | | | ___ \  | |   | |/ _ \| '_ \ / _ \  |  _  ||  __/  | |
- _| |_| |  | | |/ /| |_/ /  | \__/\ | (_) | | | |  __/  | | | || |    _| |_
- \___/\_|  |_/___/ \____/    \____/_|\___/|_| |_|\___|  \_| |_/\_|    \___/                                                                  
+
+  _______        _         _ _     _                         _____  ____  
+ |__   __|      | |       | (_)   | |                       |  __ \|  _ \ 
+    | | ___   __| | ___   | |_ ___| |_    __ _ _ __  _ __   | |  | | |_) |
+    | |/ _ \ / _` |/ _ \  | | / __| __|  / _` | '_ \| '_ \  | |  | |  _ < 
+    | | (_) | (_| | (_) | | | \__ \ |_  | (_| | |_) | |_) | | |__| | |_) |
+    |_|\___/ \__,_|\___/  |_|_|___/\__|  \__,_| .__/| .__/  |_____/|____/ 
+                                              | |   | |                   
+                                              |_|   |_|                   
+                                                               
 ```
 # Welcome!
 
-This guide will walk you through the deployment process on Windows, ensuring a smooth setup for your local development environment of your IMDB Clone project.
+This guide will walk you through the deployment process on Windows, ensuring a smooth setup for your local development environment of your Todo List project.
 
 ## Prerequisites:
 
@@ -31,7 +35,7 @@ Open a command prompt or terminal window and navigate outside the cloned reposit
 ```
 python -m venv <virtual-environment-name>
 ```
-Replace `<virtual-environment-name>` with a descriptive name of your choice (e.g., imdbclone_env).
+Replace `<virtual-environment-name>` with a descriptive name of your choice (e.g., todoenv).
 
 - Activate the Virtual Environment:
 Activate the virtual environment you just created using the following command:
@@ -43,7 +47,7 @@ Your command prompt should now indicate that you're working within the virtual e
 
 Install Dependencies:
 
-Navigate to the root directory of your cloned IMDB Clone repository using the cd command in your terminal.
+Navigate to the root directory of your cloned Todo List repository using the cd command in your terminal.
 Install the required Python packages listed in the requirements.txt file using pip:
 ```
 pip install -r requirements.txt
@@ -77,13 +81,13 @@ Open http://localhost:8000/admin in your web browser. You should now be able to 
 
 ## Next Steps:
 
-Configure IMDB Clone Data: Explore the Django admin interface (http://localhost:8000/admin) to begin setting up and managing data for your IMDB Clone application. Consult the project's documentation for specific instructions on data configuration.
-Development: Customize your IMDB Clone application using Django's powerful features. Refer to the project's documentation and [Django's official documentation](https://docs.djangoproject.com/en/5.0/) for comprehensive guidance.
+Configure Todo List Data: Explore the Django admin interface (http://localhost:8000/admin) to begin setting up and managing data for your Todo List application. Consult the project's documentation for specific instructions on data configuration.
+Development: Customize your Todo List application using Django's powerful features. Refer to the project's documentation and [Django's official documentation](https://docs.djangoproject.com/en/5.0/) for comprehensive guidance.
 ## Additional Tips:
 
 Consider using a code editor with Django-specific features for a more streamlined development experience (e.g., PyCharm, Visual Studio Code with Django extensions).
 Utilize version control (e.g., Git) to track changes to your codebase and collaborate effectively with others.
-By following these steps, you'll have a well-structured and functional local development environment set up for your IMDB Clone project. Happy coding!❤️
+By following these steps, you'll have a well-structured and functional local development environment set up for your Todo List project. Happy coding!❤️
 
 ## Reference:
 [Django Rest Framework Documentation](https://www.django-rest-framework.org/)
